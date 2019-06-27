@@ -4,7 +4,8 @@
 This is an API Automation Project that uses:
 1. TestNG 
 2. Rest Assured
-3. Maven   
+3. Log4j2
+4. Maven   
 
 
 ## Getting Started 

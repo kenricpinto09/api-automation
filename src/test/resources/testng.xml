@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="planets api test suite">
+	<parameter name="base-url" value="https://swapi.co" />
+	<parameter name="planet-id" value="42" />
+	<parameter name="planet-name" value="Haruun Kal" />
+	<test name="Planet Tests">
+		<packages>
+			<package name="com.company.api.test" />
+		</packages>
+		<!-- <classes>
+			<class name="com.company.api.test.AllPlanetsTest" />
+			<class name="com.company.api.test.SinglePlanetTest" />
+		</classes> -->
+	</test>
+</suite>
+
